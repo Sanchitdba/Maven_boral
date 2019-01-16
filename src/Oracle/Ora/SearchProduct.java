@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import CustomLibraries.UserLibrary;
 @Test
 public class SearchProduct extends UserLibrary{
-	
+	//testing only
 	public void LoginPage() throws IOException{
 		startBrowser("https://www.amazon.in/");
 		inputSearchKeyword("perfume");
